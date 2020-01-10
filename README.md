@@ -40,7 +40,7 @@ Try VAE, but failure not only VAE but also AE.
 ## Sin GAN
 1. Using [Google Colab](https://colab.research.google.com/). Create account.
 1. Clone [repository](https://github.com/tamarott/SinGAN) and configure.
-```py
+```ipynb
 from google.colab import drive
 drive.mount('/content/drive')
 !git clone https://github.com/tamarott/SinGAN.git "/content/drive/My Drive/SinGAN"
@@ -53,6 +53,6 @@ torch.cuda.is_available()
 ```
 1. Upload into `/SinGAN/Input/Images/`.
 1. Execution.
-```py
+```ipynb
 !python main_train.py --input_name "filename"
 ```
