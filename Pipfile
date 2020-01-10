@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+keras = "*"
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+opencv-python = "*"
+tqdm = "*"
+jupytext = "*"
+jupyter = "*"
+torch = "*"
+pillow = "*"
+sklearn = "*"
+scikit-learn = "*"
+pydot = "*"
+beautifulsoup4 = "*"
+tensorflow = "==1.15.0"
+requests = "*"
+
+[requires]
+python_version = "3.6"
